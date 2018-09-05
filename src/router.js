@@ -27,6 +27,18 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
+    },
+    {
+      path: "/post/:id?",
+      name: "post",
+      component: () => import("./views/Post"),
+      children: [
+        {
+          path: "comment",
+          name: "PostComment",
+          component: () => import("./views/Comment")
+        }
+      ]
     }
   ]
 });

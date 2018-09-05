@@ -6,10 +6,10 @@
 
 <script>
 // @ is an alias to /src
-import Photo from "@/components/Photo.vue";
+import Photo from "@/components/Photo";
 
 export default {
-  name: "home",
+  name: "photo",
   components: {
     Photo
   }
