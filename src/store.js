@@ -43,6 +43,12 @@ export default new Vuex.Store({
         name: "photo",
         title: "Photo",
         path: "/photo"
+      },
+      {
+        id: 5,
+        name: "login",
+        title: "Login",
+        path: "/login"
       }
     ],
     posts: [
