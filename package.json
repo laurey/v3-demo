@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@antv/data-set": "^0.10.2",
+    "ant-design-vue": "^1.4.10",
     "register-service-worker": "^1.0.0",
     "viser-vue": "^2.4.6",
     "vue": "^2.5.17",
